@@ -34,13 +34,18 @@ p.venue {
   color: #453688;
 }
 
-.prefix {
-  opacity: .5;
+.faded {
+  opacity: .2;
+  filter: contrast(1.1);
 }
 
-#architecture img {
-  top: 67%;
-  left: 67%;
-  height: 134%;
-  max-height: none;
+blockquote {
+  margin-top: -21px;
+}
+blockquote p {
+  font-weight: bold;
+  font-style: italic;
+}
+.slide.text blockquote {
+  margin-top: 60px;
 }
